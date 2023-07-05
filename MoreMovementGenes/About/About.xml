@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Movement Genes</name>
+  <author>alite</author>
+  <packageId>MoreBiotechStyleGenes.Movement</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.royalty</packageId>
+      <displayName>Royalty</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.ideology</packageId>
+      <displayName>Ideology</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+Adds 22 new movement genes, 11 Runner Genes and 11 Naked/Clothed Speed Genes.
+
+Fast Runners - Adds to base speed
+Runner: +0.05
+Slightly Fast Runner: +0.1
+Fast Runner(vanilla): +0.2
+Notably Fast Runner: +0.3
+Very Fast Runner(vanilla): +0.4
+Extremely Fast Runner +0.5
+Super Fast Runner +0.6
+
+Slow Runners - Subtracts from base speed
+Marginally Slow Runner: -0.05
+Somewhat Slow Runner: -0.1
+Slow Runner(vanilla): -0.2
+Notably Slow Runner: -0.3
+Very Slow Runner: -0.4
+Extremely Slow Runner: -0.5
+Super Slow Runner: -0.6
+
+Naked Speeds - Bonus speed while naked, penalty while clothed
+Decent Naked Speed: +0.05 -0.1
+Naked Speed(vanilla): +0.1 -0.2
+Notable Naked Speed: +0.15 -0.3
+Fast Naked Speed: +0.2 -0.4
+Extreme Naked Speed: +0.25 -0.5
+Super Naked Speed: +0.3 -0.6
+
+Clothed Speeds - Bonus speed while clothed, penalty while naked - Because it is relatively easy to get clothes, the bonus is lower, and complexity is higher. These genes will be felt most in the early game, before a workshop is built.
+Decent Clothed Speed: +0.0 -0.1
+Clothed Speed: +0.05 -0.2
+Notable Clothed Speed: +0.1 -0.3
+Fast Clothed Speed: +0.15 -0.4
+Extreme Clothed Speed: +0.2 -0.5
+Super Clothed Speed: +0.25 -0.6
+
+
+Included in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url]
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://discord.gg/fYP8qkcNDh][img]https://imgur.com/nL2kmdD[/img][/url]
+[url=https://github.com/KonradHeinser/MoreMovementGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+

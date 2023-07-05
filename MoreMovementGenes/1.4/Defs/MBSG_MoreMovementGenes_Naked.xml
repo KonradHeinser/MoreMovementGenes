@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>MBSG_SuperNakedSpeed</defName>
+    <label>super naked speed</label>
+    <description>Carriers of this gene move much slower while clothed, and faster while naked.</description>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>500.4</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>-0.6</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>6</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_ExtremeNakedSpeed</defName>
+    <label>extreme naked speed</label>
+    <description>Carriers of this gene move mcuh slower while clothed, and faster while naked.</description>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>500.3</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>-0.5</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>0.25</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_FastNakedSpeed</defName>
+    <label>fast naked speed</label>
+    <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>500.2</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>4</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_NotableNakedSpeed</defName>
+    <label>notable naked speed</label>
+    <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>500.1</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_DecentNakedSpeed</defName>
+    <label>decent naked speed</label>
+    <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
+    <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.9</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_DecentClothedSpeed</defName>
+    <label>decent clothed speed</label>
+    <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.8</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_ClothedSpeed</defName>
+    <label>clothed speed</label>
+    <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.7</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_NotableClothedSpeed</defName>
+    <label>notable clothed speed</label>
+    <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.6</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_FastClothedSpeed</defName>
+    <label>fast clothed speed</label>
+    <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.5</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>0.15</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>4</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_ExtremeClothedSpeed</defName>
+    <label>extreme clothed speed</label>
+    <description>Carriers of this gene move much slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.4</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.5</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_SuperClothedSpeed</defName>
+    <label>super clothed speed</label>
+    <description>Carriers of this gene move much slower while naked, and faster while clothed.</description>
+    <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>499.3</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Clothed">
+        <statOffsets>
+          <MoveSpeed>0.25</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li Class="ConditionalStatAffecter_Unclothed">
+        <statOffsets>
+          <MoveSpeed>-0.6</MoveSpeed>
+        </statOffsets>
+      </li>
+    </conditionalStatAffecters>
+    <suppressedTraits>
+      <li>
+        <def>Nudist</def>
+      </li>
+    </suppressedTraits>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>6</biostatMet>
+  </GeneDef>
+</Defs>
