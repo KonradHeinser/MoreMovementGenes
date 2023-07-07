@@ -135,7 +135,7 @@
       </li>
     </suppressedTraits>
     <biostatCpx>1</biostatCpx>
-    <biostatMet>1</biostatMet>
+    <biostatMet>-1</biostatMet>
   </GeneDef>
 
   <GeneDef>
@@ -163,7 +163,7 @@
       </li>
     </suppressedTraits>
     <biostatCpx>2</biostatCpx>
-    <biostatMet>2</biostatMet>
+    <biostatMet>-2</biostatMet>
   </GeneDef>
 
   <GeneDef>
@@ -191,7 +191,7 @@
       </li>
     </suppressedTraits>
     <biostatCpx>3</biostatCpx>
-    <biostatMet>3</biostatMet>
+    <biostatMet>-3</biostatMet>
   </GeneDef>
 
   <GeneDef>
@@ -219,7 +219,7 @@
       </li>
     </suppressedTraits>
     <biostatCpx>4</biostatCpx>
-    <biostatMet>4</biostatMet>
+    <biostatMet>-4</biostatMet>
   </GeneDef>
 
   <GeneDef>
@@ -247,7 +247,7 @@
       </li>
     </suppressedTraits>
     <biostatCpx>5</biostatCpx>
-    <biostatMet>5</biostatMet>
+    <biostatMet>-5</biostatMet>
   </GeneDef>
 
   <GeneDef>
@@ -275,6 +275,6 @@
       </li>
     </suppressedTraits>
     <biostatCpx>6</biostatCpx>
-    <biostatMet>6</biostatMet>
+    <biostatMet>-6</biostatMet>
   </GeneDef>
 </Defs>
