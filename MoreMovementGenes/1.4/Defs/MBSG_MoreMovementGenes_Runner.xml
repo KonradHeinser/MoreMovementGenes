@@ -236,7 +236,7 @@
     <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
     <displayOrderInCategory>10.1</displayOrderInCategory>
     <statOffsets>
-      <MoveSpeed>0.2</MoveSpeed>
+      <MoveSpeed>0.3</MoveSpeed>
     </statOffsets>
     <biostatMet>-4</biostatMet>
     <symbolPack>
