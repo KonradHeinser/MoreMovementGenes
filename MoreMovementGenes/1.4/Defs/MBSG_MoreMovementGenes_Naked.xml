@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_SuperNakedSpeed</defName>
     <label>super naked speed</label>
     <description>Carriers of this gene move much slower while clothed, and faster while naked.</description>
     <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>500.4</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -23,12 +22,11 @@
     <biostatMet>6</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_ExtremeNakedSpeed</defName>
     <label>extreme naked speed</label>
-    <description>Carriers of this gene move mcuh slower while clothed, and faster while naked.</description>
+    <description>Carriers of this gene move much slower while clothed, and faster while naked.</description>
     <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>500.3</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -46,12 +44,11 @@
     <biostatMet>5</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_FastNakedSpeed</defName>
     <label>fast naked speed</label>
     <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
     <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>500.2</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -69,12 +66,11 @@
     <biostatMet>4</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_NotableNakedSpeed</defName>
     <label>notable naked speed</label>
     <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
     <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>500.1</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -92,12 +88,11 @@
     <biostatMet>3</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_DecentNakedSpeed</defName>
     <label>decent naked speed</label>
     <description>Carriers of this gene move slower while clothed, and faster while naked.</description>
     <iconPath>UI/Icons/Genes/Gene_NakedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.9</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -115,12 +110,11 @@
     <biostatMet>1</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_DecentClothedSpeed</defName>
     <label>decent clothed speed</label>
     <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.8</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Unclothed">
@@ -138,12 +132,11 @@
     <biostatMet>-1</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_ClothedSpeed</defName>
     <label>clothed speed</label>
     <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.7</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -166,12 +159,11 @@
     <biostatMet>-2</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_NotableClothedSpeed</defName>
     <label>notable clothed speed</label>
     <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.6</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -194,12 +186,11 @@
     <biostatMet>-3</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_FastClothedSpeed</defName>
     <label>fast clothed speed</label>
     <description>Carriers of this gene move slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.5</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -222,12 +213,11 @@
     <biostatMet>-4</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_ExtremeClothedSpeed</defName>
     <label>extreme clothed speed</label>
     <description>Carriers of this gene move much slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.4</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
@@ -250,12 +240,11 @@
     <biostatMet>-5</biostatMet>
   </GeneDef>
 
-  <GeneDef>
+  <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_SuperClothedSpeed</defName>
     <label>super clothed speed</label>
     <description>Carriers of this gene move much slower while naked, and faster while clothed.</description>
     <iconPath>MBSG/Gene_ClothedSpeed</iconPath>
-    <displayCategory>Movement</displayCategory>
     <displayOrderInCategory>499.3</displayOrderInCategory>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_Clothed">
