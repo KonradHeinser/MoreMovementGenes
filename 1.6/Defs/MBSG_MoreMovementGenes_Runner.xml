@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_SuperSlow</defName>
+    <label>super slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move much more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>-0.6</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.6</MoveSpeed>
+    </statOffsets>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>7</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_ExtremelySlow</defName>
+    <label>extremely slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move much more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>-0.5</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.5</MoveSpeed>
+    </statOffsets>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>6</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_VerySlow</defName>
+    <label>very slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move much more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>-0.4</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.4</MoveSpeed>
+    </statOffsets>
+    <biostatMet>5</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_NotablySlow</defName>
+    <label>notably slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>-0.3</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </statOffsets>
+    <biostatMet>4</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_SomewhatSlow</defName>
+    <label>somewhat slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>0.1</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_MarginallySlow</defName>
+    <label>marginally slow runner</label> 
+    <labelShortAdj>slow</labelShortAdj>
+    <description>Carriers of this gene move more slowly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowMovespeed</iconPath>
+    <displayOrderInCategory>0.2</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slow</symbol></li>
+        <li><symbol>plod</symbol></li>
+        <li><symbol>grado</symbol></li>
+        <li><symbol>letho</symbol></li>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>slack</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>slug</symbol></li>
+        <li><symbol>plodder</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_MarginallyQuick</defName>
+    <label>runner</label> 
+    <labelShortAdj>quick</labelShortAdj>
+    <description>Carriers of this gene move more quickly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>9.8</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>0.05</MoveSpeed>
+    </statOffsets>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_SlightlyQuick</defName>
+    <label>slightly fast runner</label> 
+    <labelShortAdj>quick</labelShortAdj>
+    <description>Carriers of this gene move more quickly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>9.9</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>0.1</MoveSpeed>
+    </statOffsets>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_NotablyQuick</defName>
+    <label>notably fast runner</label> 
+    <labelShortAdj>quick</labelShortAdj>
+    <description>Carriers of this gene move more quickly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>10.1</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>0.3</MoveSpeed>
+    </statOffsets>
+    <biostatMet>-4</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_ExtremelyQuick</defName>
+    <label>extremly fast runner</label> 
+    <labelShortAdj>fast</labelShortAdj>
+    <description>Carriers of this gene move much more quickly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_VeryQuickMovespeed</iconPath>
+    <displayOrderInCategory>20.1</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>0.5</MoveSpeed>
+    </statOffsets>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>MBSG_MoveSpeed_SuperQuick</defName>
+    <label>super fast runner</label> 
+    <labelShortAdj>fast</labelShortAdj>
+    <description>Carriers of this gene move much more quickly than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_VeryQuickMovespeed</iconPath>
+    <displayOrderInCategory>20.2</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>0.6</MoveSpeed>
+    </statOffsets>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-7</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

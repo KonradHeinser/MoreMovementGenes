@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs</xpath>
+        <value>
+            <GeneDef Abstract="True" Name="MBSG_NakedSpeedBase">
+                <displayCategory>Movement</displayCategory>
+                <exclusionTags>
+                    <li>MBSG_NakedSpeeds</li>
+                </exclusionTags>
+            </GeneDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>Defs/GeneDef[defName="NakedSpeed"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>MBSG_NakedSpeedBase</value>
+    </Operation>
+</Patch>
