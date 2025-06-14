@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <GeneDef Abstract="True" Name="MBSG_NakedSpeedBase">
+    <displayCategory>Movement</displayCategory>
+    <exclusionTags>
+        <li>MBSG_NakedSpeeds</li>
+    </exclusionTags>
+  </GeneDef>
+
   <GeneDef ParentName="MBSG_NakedSpeedBase">
     <defName>MBSG_SuperNakedSpeed</defName>
     <label>super naked speed</label>
